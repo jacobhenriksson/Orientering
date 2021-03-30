@@ -1,0 +1,28 @@
+.container{
+display:grid;
+grid-template-columns: repeat(10,1fr);
+grid-template-rows: repeat(5, 100px);
+justify-content: center;
+}
+nav{
+  grid-column: 2/11;
+  grid-row: 1/3;
+}
+section{
+  grid-column: 3/6;
+    grid-row: 3/4;
+
+}
+footer{
+  grid-column: 1/3;
+  grid-row: 3/5;
+
+}
+header{
+  grid-column: 3/6;
+  grid-row: 4/5;
+}
+#logga{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
