@@ -2,6 +2,7 @@
 .topnav {
   overflow: hidden;
   background-color: gray;
+  border-style: solid;
 }
 
 .topnav a {
@@ -20,7 +21,7 @@
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: rgb(255, 130, 0);
   color: white;
 }
 
@@ -28,7 +29,7 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -36,7 +37,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -49,8 +50,33 @@
     text-align: left;
   }
 }
-#logga {
-  height: 85%;
-  align-items: center;
+.rubrik{
+  border-style: solid;
+  text-align: center;
+  background-color: rgb(131, 129, 130);
+}
 
+.text{
+  font-size: 20px;
+  padding: 3%;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.footer{
+  background-color: rgb(32, 32, 32);
+}
+.Footertext{
+  color: white;
+  text-align: center;
 }
