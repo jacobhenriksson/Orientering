@@ -1,4 +1,13 @@
-
+.bilditext{
+  width: 40%;
+  float: right;
+  padding: 5px;
+}
+.bilditext2{
+  width: 40%;
+  float: left;
+  padding: 5px;
+}
 .topnav {
   overflow: hidden;
   background-color: gray;
@@ -49,6 +58,14 @@
     display: block;
     text-align: left;
   }
+  .bilditext{
+    width: 80%;
+    float: none;
+  }
+  .bilditext2{
+    width: 80%;
+    float: none;
+  }
 }
 .rubrik{
   border-style: solid;
@@ -59,6 +76,11 @@
 .text{
   font-size: 20px;
   padding: 3%;
+  font-family: 'Orelega One', cursive;
+}
+.text3{
+  font-size: 17px;
+  font-family: 'Orelega One', cursive;
 }
 * {box-sizing:border-box}
 

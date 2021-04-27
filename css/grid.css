@@ -27,6 +27,11 @@ header{
   grid-column: 7/15;
   grid-row: 3/4;
 }
+.text2{
+grid-column: 4/17;
+grid-row: 6/10;
+
+}
 @media screen and (max-width: 860px) {
   .bildspel{
     grid-column: 2/20;
