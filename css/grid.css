@@ -1,7 +1,7 @@
 .container{
 display:grid;
 grid-template-columns: repeat(20,1fr);
-grid-template-rows: repeat(20, 50px);
+grid-template-rows: repeat(25, 50px);
 justify-content: center;
 }
 nav{
@@ -20,7 +20,7 @@ nav{
 }
 footer{
   grid-column: 1/-1;
-  grid-row: 19/21;
+  grid-row: 25/26;
 
 }
 header{
@@ -35,12 +35,16 @@ grid-row: 6/10;
 @media screen and (max-width: 860px) {
   .bildspel{
     grid-column: 2/20;
-    grid-row: 11/15;
+    grid-row: 13/15;
 
   }
   .textruta{
     grid-column: 2/20;
     grid-row: 5/10;
 
+  }
+  header{
+    grid-column: 2/19;
+    grid-row: 3/4;
   }
   }
