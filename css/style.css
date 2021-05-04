@@ -1,19 +1,22 @@
+/* Här är css koden till de bilderna som är i texten till höger*/
 .bilditext{
   width: 40%;
   float: right;
   padding: 5px;
 }
+/* Här är koden till de bilder som är i koden fast till vänster */
 .bilditext2{
   width: 40%;
   float: left;
   padding: 5px;
 }
+/* Här börjar koden till menyn*/
 .topnav {
   overflow: hidden;
   background-color: gray;
   border-style: solid;
 }
-
+/* Den här koden stylar texten i menyn*/
 .topnav a {
   float: left;
   display: block;
@@ -23,7 +26,7 @@
   text-decoration: none;
   font-size: 17px;
 }
-
+/* Den här koden säger vad som händer när man håller musen över menyn*/
 .topnav a:hover {
   background-color: #ddd;
   color: black;
@@ -37,7 +40,7 @@
 .topnav .icon {
   display: none;
 }
-
+/* Här är koden som säger att en icon ska komma fram när skärmen blir mindre än 700px*/
 @media screen and (max-width: 700px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -45,7 +48,7 @@
     display: block;
   }
 }
-
+/* Här är kod som säger vad som händer med resten av menyn när skärmen blir mindre än 700px samt vad som händer med bilderna*/
 @media screen and (max-width: 700px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -80,25 +83,26 @@
 }
 .text3{
   font-size: 17px;
+  /* Här så använder jag fontern som jag har hämtat via google fonts länken */
   font-family: 'Orelega One', cursive;
 }
 * {box-sizing:border-box}
 
-/* Slideshow container */
+/* Här defineras bildspelets storlek */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 .footer{
-  background-color: rgb(32, 32, 32);
+  border: dotted;
 }
 .Footertext{
-  color: white;
-  text-align: center;
+  color: black;
+  padding: 10px;
+  text-align:center;display:block;
 }

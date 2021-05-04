@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="sw">
   <head>
     <meta charset="utf-8"/>
      <title> Orientering </title>
@@ -8,16 +8,20 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+      <!-- Den här länken är till den lilla iconen som syns i webbläsarfliken-->
+      <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 <body>
   <div class="container">
     <nav>
   <div class="topnav" id="myTopnav">
-    <a href="index.html" class="active">Home</a>
+    <!-- Det här är de länkar som finns i menyn-->
+    <a id="top" href="index.html" class="active">Home</a>
     <a href="information.html">Information</a>
     <a href="tavla.html">Tävla</a>
     <a href="utrustning.html">Utrustning</a>
     <a href="https://eventor.orientering.se/Events" target="_blank">Tävlingskalender</a>
+    <!-- Det här är iconen som bara syns när sidan blir mindre än 700px samt att den säger vad som händer klickar på den alltså att den startar navFunction -->
     <a href="javascript:void(0);" class="icon" onclick="navFunction()">
       <i style="font-size:19px" class="fa">&#xf0c9;</i>
     </a>
@@ -31,9 +35,9 @@
   </p>
 </section>
 <section class="bildspel">
-<div class="slideshow-container">
+ <div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
+  <!-- Här är de bilder som finns i bildspelet -->
   <div class="mySlides fade">
     <img src="img/obild1.jpg" alt="Bild från en tävling" style="width:100%">
   </div>
@@ -60,7 +64,8 @@
 </div>
 </section>
 <footer class="footer">
-  <p class="Footertext">Hallo här är min footer </p>
+  <!-- Här är en länk inom sidan så man kan ta sig tillbaka till toppen -->
+  <a href="#top" class="Footertext">Klicka här om du vill tillbaka till toppen.</a>
 </footer>
 </div>
   <script src="js/script.js"></script>
