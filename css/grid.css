@@ -32,7 +32,7 @@ grid-column: 4/17;
 grid-row: 6/10;
 
 }
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 700px) {
   .bildspel{
     grid-column: 2/20;
     grid-row: 18/22;
