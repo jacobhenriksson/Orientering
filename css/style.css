@@ -73,7 +73,7 @@
 .rubrik{
   border-style: solid;
   text-align: center;
-  background-color: rgb(131, 129, 130);
+  background-color: rgb(255, 130, 0);
 }
 
 .text{
@@ -105,4 +105,12 @@
   color: black;
   padding: 10px;
   text-align:center;display:block;
+}
+.textruta{
+  border-style: solid;
+  background-color: rgb(131, 131, 131);
+}
+.text2{
+  border-style: solid;
+  background-color: rgb(131, 131, 131);
 }
